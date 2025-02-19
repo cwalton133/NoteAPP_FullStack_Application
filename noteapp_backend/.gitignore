@@ -1,0 +1,30 @@
+# Python
+*.pyc
+__pycache__/
+
+# Virtual Environment
+venv/
+env/
+.venv/
+
+# Database (Local)
+db.sqlite3  # If using SQLite
+
+# IDE and Editor
+.idea/
+.vscode/
+*.iml
+*.log
+
+# Static files (Generated)
+static/
+
+# Media files (User uploads - potentially)
+media/  # Consider if you want to version these.  Best practice is an external storage service.
+# if you don't want to upload this
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.svg
+*.webp
